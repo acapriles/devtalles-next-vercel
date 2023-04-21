@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google'
-import Link from 'next/link'
-import { MainLayout } from '@/components/layouts/MainLayout'
+import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
+import { MainLayout } from '../../components/layouts/MainLayout';
+
+
 
 const ContactPage = () => {
 	return (
